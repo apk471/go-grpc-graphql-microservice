@@ -3,6 +3,9 @@ package account
 import (
 	"context"
 	"database/sql"
+
+	// import the Postgres driver so database/sql knows about the "postgres" driver
+	_ "github.com/lib/pq"
 )
 
 type Repository interface {
