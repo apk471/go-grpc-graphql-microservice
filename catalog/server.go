@@ -7,6 +7,8 @@ import (
 	"log"
 	"net"
 
+	"github.com/apk471/go-grpc-graphql-microservice/catalog/pb"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
