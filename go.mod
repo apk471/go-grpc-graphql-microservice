@@ -7,11 +7,13 @@ tool github.com/99designs/gqlgen
 require (
 	github.com/99designs/gqlgen v0.17.86
 	github.com/kelseyhightower/envconfig v1.4.0
+	github.com/lib/pq v1.11.2
 	github.com/segmentio/ksuid v1.0.4
 	github.com/tinrab/retry v1.0.0
 	github.com/vektah/gqlparser/v2 v2.5.31
 	google.golang.org/grpc v1.79.1
 	google.golang.org/protobuf v1.36.11
+	gopkg.in/olivere/elastic.v5 v5.0.86
 )
 
 require (
@@ -21,7 +23,8 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
-	github.com/lib/pq v1.11.2 // indirect
+	github.com/mailru/easyjson v0.7.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sosodev/duration v1.3.1 // indirect
 	github.com/urfave/cli/v3 v3.6.1 // indirect
 	golang.org/x/mod v0.31.0 // indirect
