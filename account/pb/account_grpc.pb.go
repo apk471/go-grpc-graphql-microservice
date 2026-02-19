@@ -8,6 +8,7 @@ package pb
 
 import (
 	context "context"
+
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -78,7 +79,6 @@ type AccountServiceServer interface {
 	PostAccount(context.Context, *PostAccountRequest) (*PostAccountResponse, error)
 	GetAccount(context.Context, *GetAccountRequest) (*GetAccountResponse, error)
 	GetAccounts(context.Context, *GetAccountsRequest) (*GetAccountsResponse, error)
-	mustEmbedUnimplementedAccountServiceServer()
 }
 
 // UnimplementedAccountServiceServer must be embedded to have
