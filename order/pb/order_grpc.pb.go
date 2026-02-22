@@ -8,6 +8,7 @@ package pb
 
 import (
 	context "context"
+
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
@@ -65,7 +66,7 @@ func (c *orderServiceClient) GetOrdersForAccount(ctx context.Context, in *GetOrd
 type OrderServiceServer interface {
 	PostOrder(context.Context, *PostOrderRequest) (*PostOrderResponse, error)
 	GetOrdersForAccount(context.Context, *GetOrdersForAccountRequest) (*GetOrdersForAccountResponse, error)
-	mustEmbedUnimplementedOrderServiceServer()
+	// mustEmbedUnimplementedOrderServiceServer()
 }
 
 // UnimplementedOrderServiceServer must be embedded to have
