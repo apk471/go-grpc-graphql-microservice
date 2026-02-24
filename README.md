@@ -30,7 +30,7 @@ A microservices-based application demonstrating gRPC inter-service communication
 
 ### Account Service
 
-Manages user accounts.
+Manages user accounts
 
 | Method                    | Description                   |
 | ------------------------- | ----------------------------- |
